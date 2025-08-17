@@ -1,0 +1,18 @@
+:root, [data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-primary: #2563eb;
+}
+
+[data-theme="dark"] {
+  --color-bg: #1a1a1a;
+  --color-text: #ffffff;
+  --color-primary: #3b82f6;
+}
+
+/* Set dark as the initial theme */
+html {
+  color-scheme: dark;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

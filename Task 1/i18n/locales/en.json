@@ -1,0 +1,21 @@
+{
+  "routes": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products",
+    "settings": "Settings"
+  },
+
+  "title": "First task",
+
+  "lang-switcher": {
+    "en": "English",
+    "ar": "Arabic"
+  },
+
+  "quick-access": "Quick access",
+  "location": "Syria, Damascus",
+  "my-name": "Hiba Allah Shakoof",
+  "my-rights": "All rights are reserved"
+}
