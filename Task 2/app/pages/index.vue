@@ -84,6 +84,11 @@ const store = useContactStore()
     width: 100%;
     background: linear-gradient(to right, purple, violet, purple);
     color: rgb(var(--v-theme-main-title));
+
+    .v-card-title,
+    .v-card-text {
+      text-wrap: wrap;
+    }
   }
 }
 
@@ -123,7 +128,7 @@ const store = useContactStore()
   }
 
   .content-wrapper {
-    max-width: 16rem;
+    max-width: 100%;
   }
 
   .title {
