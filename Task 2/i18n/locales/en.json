@@ -1,0 +1,31 @@
+{
+  "routes": {
+    "home": "Home",
+    "contact": "Contact"
+  },
+
+  "title": "Second task",
+
+  "form-data": {
+    "fullname-en": "Fullname (En)",
+    "fullname-ar": "Fullname (Ar)",
+
+    "email": "E-mail",
+    "subject": "Subject",
+
+    "address-en": "Address (En)",
+    "address-ar": "Address (Ar)",
+
+    "submit": "Submit"
+  },
+
+  "lang-switcher": {
+    "en": "English",
+    "ar": "Arabic"
+  },
+
+  "quick-access": "Quick access",
+  "location": "Syria, Damascus",
+  "my-name": "Hiba Allah Shakoof",
+  "my-rights": "All rights are reserved"
+}

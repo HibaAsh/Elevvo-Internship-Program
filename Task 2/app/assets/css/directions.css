@@ -1,0 +1,41 @@
+/* directions.css */
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+  
+  /* Fix Vuetify components */
+  .v-pagination {
+    flex-direction: row-reverse;
+  }
+  
+  /* .v-row {
+    flex-direction: row-reverse;
+  } */
+  
+  .v-list-item__content,
+  .v-btn__content {
+    flex-direction: row-reverse;
+  }
+  
+  .v-text-field .v-field__append-inner {
+    padding-left: 0;
+    padding-right: 8px;
+  }
+  
+  .v-text-field .v-field__prepend-inner {
+    padding-right: 0;
+    padding-left: 8px;
+  }
+  
+  /* Add more component-specific overrides as needed */
+}
+
+[dir="ltr"] {
+  text-align: left;
+  direction: ltr;
+}
+
+/* Smooth transitions */
+html, body {
+  transition: all 0.3s ease;
+}
